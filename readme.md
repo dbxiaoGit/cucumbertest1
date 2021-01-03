@@ -9,3 +9,6 @@
 	 spring-webmvc
 	 spring-context-support
 	 spring-test
+
+-D'file.encoding=UTF-8' 
+
