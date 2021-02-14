@@ -1,7 +1,7 @@
 
 ***
-#gradle配置
-##gradle-wrapper.properties
+# gradle配置
+## gradle-wrapper.properties
 ```
     distributionBase=GRADLE_USER_HOME
     distributionPath=wrapper/dists
@@ -10,11 +10,11 @@
     zipStorePath=wrapper/dists
     org.gradle.jvmargs=-Dfile.encoding=UTF-8
 ```
-##仓库配置
+## 仓库配置
 ```groovy
     maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
 ```
-##添加依赖
+## 添加依赖
 ```groovy
     implementation 'io.cucumber:cucumber-java8:6.9.1'
     implementation 'io.cucumber:cucumber-spring:6.9.1'
@@ -47,12 +47,12 @@
     }
 ```
 ***
-#执行命令
+# 执行命令
 * gradle clean cucumber -Dfile.encoding=UTF-8
-*  chmod 777 gradlew && ./gradlew :runtest:clean cucumber -Dfile.encoding=UTF-8
+* chmod 777 gradlew && ./gradlew :runtest:clean cucumber -Dfile.encoding=UTF-8
 
 ***
-#其他
+# 其他
 ```
     cucumber-spring 6.9.1包含
     5.3.2版本的
