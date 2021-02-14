@@ -9,3 +9,7 @@
 
 rootProject.name = 'cucumbertest1'
 include('app')
+include 'dao'
+include 'common'
+include 'runtest'
+

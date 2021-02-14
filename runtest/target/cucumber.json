@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-14T10:03:33.475Z",
+        "line": 4,
+        "name": "这里是场景描述",
+        "description": "",
+        "id": "这里是功能描述;这里是场景描述",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cn.rbl.steps.DemoStep.\u003cinit\u003e(DemoStep.java:14)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "场景",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "打印数字132",
+            "match": {
+              "arguments": [
+                {
+                  "val": "132",
+                  "offset": 4
+                }
+              ],
+              "location": "cn.rbl.steps.DemoStep.\u003cinit\u003e(DemoStep.java:10)"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T10:03:33.560Z",
+        "line": 11,
+        "name": "这里是场景大纲描述",
+        "description": "",
+        "id": "这里是功能描述;这里是场景大纲描述;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cn.rbl.steps.DemoStep.\u003cinit\u003e(DemoStep.java:14)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "场景大纲",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "打印数字111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "111",
+                  "offset": 4
+                }
+              ],
+              "location": "cn.rbl.steps.DemoStep.\u003cinit\u003e(DemoStep.java:10)"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T10:03:33.575Z",
+        "line": 12,
+        "name": "这里是场景大纲描述",
+        "description": "",
+        "id": "这里是功能描述;这里是场景大纲描述;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cn.rbl.steps.DemoStep.\u003cinit\u003e(DemoStep.java:14)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "场景大纲",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "打印数字222",
+            "match": {
+              "arguments": [
+                {
+                  "val": "222",
+                  "offset": 4
+                }
+              ],
+              "location": "cn.rbl.steps.DemoStep.\u003cinit\u003e(DemoStep.java:10)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "这里是功能描述",
+    "description": "",
+    "id": "这里是功能描述",
+    "keyword": "功能",
+    "uri": "file:src/test/resources/features/demo1.feature",
+    "tags": []
+  }
+]

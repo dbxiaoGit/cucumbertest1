@@ -19,8 +19,7 @@ repositories {
 
 dependencies {
     implementation 'org.projectlombok:lombok:1.18.16'
-    implementation 'org.springframework.boot:spring-boot-starter-logging:2.4.1'
-
+    implementation 'org.springframework.boot:spring-boot-starter-logging:2.4.2'
     // Use TestNG framework, also requires calling test.useTestNG() below
     testImplementation 'org.testng:testng:7.2.0'
     testImplementation 'io.cucumber:cucumber-java8:6.9.1'
