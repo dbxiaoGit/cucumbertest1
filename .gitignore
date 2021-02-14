@@ -4,6 +4,7 @@
 /out/
 !gradle/wrapper/gradle-wrapper.jar
 *.bat
+target/
 ### STS ###
 .apt_generated
 .classpath
